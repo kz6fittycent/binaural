@@ -11,10 +11,10 @@ grade: stable
 confinement: strict
 compression: lzo
 
-
 apps:
   binaural:
     command: bin/binaural
+    extensions: [gnome]
     plugs:
       - audio-playback
       - home
