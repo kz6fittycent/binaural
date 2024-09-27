@@ -1,5 +1,5 @@
 name: binaural
-version: 1.0.0
+version: 'git'
 summary: A binaural beat generator using pulse-code modulation
 description: |
   A binaural beat generator using pulse-code modulation.
@@ -23,11 +23,4 @@ parts:
   binaural:
     source: https://github.com/tytydraco/binaural
     source-type: git
-    plugin: nil
-    
-    override-build: |
-      flutter # prep flutter for build
-      dart pub global activate -s git https://github.com/tytydraco/binaural
-    
-    build-snaps:
-      - flutter
+    plugin: flutter
