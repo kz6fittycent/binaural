@@ -24,3 +24,4 @@ parts:
     source: https://github.com/tytydraco/binaural
     source-type: git
     plugin: flutter
+    flutter-target: bin/binaural.dart
