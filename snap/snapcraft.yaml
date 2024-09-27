@@ -6,7 +6,7 @@ description: |
 
 license: BSD-2-Clause
 
-base: core18
+base: core24
 grade: stable
 confinement: strict
 compression: lzo
@@ -14,7 +14,7 @@ compression: lzo
 
 apps:
   binaural:
-    command: binaural
+    command: bin/binaural
     plugs:
       - audio-playback
       - home
